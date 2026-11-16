@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "description": "染料で色ブロックを直接染色",
+    "min_format": [
+      125,
+      121
+    ],
+    "max_format": 129,
+    "pack_format": 127
+  }
+}
