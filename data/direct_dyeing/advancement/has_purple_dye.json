@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"has_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"direct_dyeing:has_dye/purple_no_transformer",
+                        "direct_dyeing:has_dye/purple"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "direct_dyeing:purple/set_transformer"
+	}
+}

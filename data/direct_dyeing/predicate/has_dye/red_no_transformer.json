@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:inverted",
+	"term": {
+		"type": "minecraft:any_of",
+		"terms": [
+			{
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"inventory.*": {
+							"components": {
+								"minecraft:block_transformer": "direct_dyeing:red"
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"hotbar.*": {
+							"components": {
+								"minecraft:block_transformer": "direct_dyeing:red"
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"components": {
+								"minecraft:block_transformer": "direct_dyeing:red"
+							}
+						}
+					}
+				}
+			},
+			{
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"armor.*": {
+							"components": {
+								"minecraft:block_transformer": "direct_dyeing:red"
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+}

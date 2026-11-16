@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"has_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						"direct_dyeing:has_dye/lime_no_transformer",
+                        "direct_dyeing:has_dye/lime"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "direct_dyeing:lime/set_transformer"
+	}
+}

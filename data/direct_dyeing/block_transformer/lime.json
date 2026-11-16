@@ -1,0 +1,316 @@
+[
+    {
+        "block_state_provider": {
+            "type": "minecraft:rule_based",
+            "rules": [
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:wool"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_wool"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "id": "minecraft:lime_wool"
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:wool_carpets"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_carpet"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "id": "minecraft:lime_carpet"
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:concrete_powders"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_concrete_powder"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "id": "minecraft:lime_concrete_powder"
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:concrete"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_concrete"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "id": "minecraft:lime_concrete"
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "direct_dyeing:stained_glass"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_stained_glass"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "id": "minecraft:lime_stained_glass"
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "direct_dyeing:stained_glass_pane"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_stained_glass_pane"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_stained_glass_pane"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:concrete_slabs"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_concrete_slab"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_concrete_slab"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:concrete_stairs"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_concrete_stairs"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_concrete_stairs"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "direct_dyeing:shulker_box"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_shulker_box"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_shulker_box"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:wool_slabs"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_wool_slab"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_wool_slab"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:wool_stairs"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_wool_stairs"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_wool_stairs"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:terracotta"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_terracotta"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "id": "minecraft:lime_terracotta"
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:candles"
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": "minecraft:lime_candle"
+                                }
+                            }
+                        ]
+                    },
+                    "then": {
+                        "type": "minecraft:copy_properties",
+                        "source": {
+                            "id": "minecraft:lime_candle"
+                        }
+                    }
+                },
+                {
+                    "if_true": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_block_tag",
+                                "tag": "minecraft:beds"
+                            }
+                        ]
+                    },
+                    "then": "direct_dyeing:beds"
+                }
+            ]
+        },
+        "loot": "direct_dyeing:dyeing/lime"
+    }
+]

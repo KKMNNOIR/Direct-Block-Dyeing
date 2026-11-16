@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{direct_dyeing:1b}}}}] at @s run function direct_dyeing:dye_dropped

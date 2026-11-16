@@ -1,0 +1,197 @@
+{
+	"type": "minecraft:rule_based",
+	"rules": [
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:black_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:black_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:blue_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:blue_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:brown_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:brown_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:cyan_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:cyan_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:gray_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:gray_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:green_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:green_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:light_blue_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:light_blue_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:light_gray_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:light_gray_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:lime_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:lime_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:magenta_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:magenta_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:orange_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:orange_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:pink_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:pink_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:purple_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:purple_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:red_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:red_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:white_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:white_bed"
+				}
+			}
+		},
+		{
+			"if_true": {
+				"type": "minecraft:matching_blocks",
+				"blocks": "minecraft:yellow_bed"
+			},
+			"then": {
+				"type": "minecraft:copy_properties",
+				"source": {
+					"id": "minecraft:yellow_bed"
+				}
+			}
+		}
+	]
+}

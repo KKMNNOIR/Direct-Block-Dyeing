@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:filtered",
+    "item_filter": {
+        "items": "minecraft:black_dye"
+    },
+    "slot_source": {
+        "type": "minecraft:group",
+        "terms": [
+            {
+                "type": "minecraft:slot_range",
+                "slots": "inventory.*",
+                "source": "this"
+            },
+            {
+                "type": "minecraft:slot_range",
+                "source": "this",
+                "slots": "hotbar.*"
+            },
+            {
+                "type": "minecraft:slot_range",
+                "source": "this",
+                "slots": "weapon.offhand"
+            },
+            {
+                "type": "minecraft:slot_range",
+                "source": "this",
+                "slots": "armor.*"
+            }
+        ]
+    }
+}

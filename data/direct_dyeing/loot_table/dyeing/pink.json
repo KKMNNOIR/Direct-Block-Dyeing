@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_wool",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "minecraft:air"
+                            }
+                        },
+                        {
+                            "type": "minecraft:set_custom_data",
+                            "tag": {
+                                "direct_dyeing": true,
+                                "color": "pink"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
